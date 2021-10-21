@@ -1,0 +1,57 @@
+.Wrapper {
+  padding: 25px;
+  height: 90vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ContainerMessages {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.ContentMessage {
+  max-width: 450px;
+  margin-top: 2rem;
+
+  p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.rightContent {
+  align-self: flex-end;
+}
+
+.contentUser {
+  display: flex;
+  margin-top: 1.5rem;
+  align-items: center;
+
+  img {
+    height: 35px;
+    width: 35px;
+    background: #fff;
+    border-radius: 50%;
+    border: 5px solid #121214;
+  }
+
+  > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+.image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(104.3deg, #ff008e 0.48%, #ffcd1e 100%);
+  margin-right: 20px;
+}

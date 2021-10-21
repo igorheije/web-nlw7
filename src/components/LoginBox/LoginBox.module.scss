@@ -1,0 +1,44 @@
+.Wrapper {
+  background: #17171a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0 3.5rem;
+
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
+
+.ButtonLogin {
+  padding: 15px 35px;
+  background-color: #ffcd1e;
+  margin-top: 2rem;
+
+  border: none;
+  border-radius: 2px;
+  color: #121214;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: #b29016;
+  }
+  img {
+    margin-right: 15px;
+  }
+}
