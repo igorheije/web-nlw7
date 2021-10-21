@@ -4,6 +4,8 @@ import MessageList from './components/MessageList';
 import SendMessageForm from './components/SendMessageForm';
 import { useAuth } from './context/auth';
 
+// testando merge
+
 export function App() {
   const { user } = useAuth();
 
